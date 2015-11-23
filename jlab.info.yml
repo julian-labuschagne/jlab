@@ -2,3 +2,6 @@ name: JLab
 description: A Drupal 8 theme
 type: theme
 core: 8.x
+libraries:
+  - jlab/global-css
+  - jlab/global-js
