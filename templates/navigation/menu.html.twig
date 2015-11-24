@@ -32,7 +32,7 @@
     {% if menu_level == 0 %}
       <ul{{ attributes.addClass('menu', 'nav', 'navbar-nav') }}>
     {% else %}
-      <ul class="menu nav navbar-nav">
+      <ul class="menu dropdown-menu">
     {% endif %}
     {% for item in items %}
       {%
